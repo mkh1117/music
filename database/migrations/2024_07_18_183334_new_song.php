@@ -13,11 +13,9 @@ return new class extends Migration
     {
         Schema::create('newsong', function (Blueprint $table) {
             $table->id();
-            $table->string('music',60);
-            $table->string('picture',60);
-            $table->string('text',35);
-            $table->string('text1',35);
-            $table->string('lyric',500)->nullable(true);
+            $table->string('text',60);
+            $table->string('text1',60);
+            $table->string('lyric',1200)->nullable(true);
             $table->integer('keyout')->unique();
             $table->timestamps();
     });

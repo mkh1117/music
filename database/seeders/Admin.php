@@ -18,6 +18,8 @@ class Admin extends Seeder
             'name'=>'meysam',
             'username'=>'m.kh.1',
             'password'=>Hash::make('m.m.m.kh.1'),
+            'owner'=>1,
+            'superadmin'=>1,
         ]);
     }
 }

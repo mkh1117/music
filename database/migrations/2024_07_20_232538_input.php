@@ -17,8 +17,8 @@ return new class extends Migration
             $table->string('picture',60);
             $table->string('text',60);
             $table->string('text1',60);
-            $table->string('lyric',500)->nullable(true);
-            $table->string('category',20)->nullable(true)->default(null);
+            $table->string('lyric',1200)->nullable(true);
+            $table->string('category',100)->nullable(true)->default(null);
             $table->integer('view')->default(0);
             $table->timestamps();
     });

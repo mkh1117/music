@@ -14,8 +14,7 @@ class DatabaseSeeder extends Seeder
     {
        $this->call([
         Admin::class,
-        Newsong::class,
-        Top::class,
+        Callus::class,
        ]);
     }
 }
